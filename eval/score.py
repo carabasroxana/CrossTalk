@@ -1,7 +1,7 @@
 import argparse, json, sys, os, csv
 from collections import defaultdict
 import matplotlib
-matplotlib.use("Agg")  # safe for non-notebook scripts
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 def iter_jsonl(path):
@@ -9,7 +9,7 @@ def iter_jsonl(path):
         for i, line in enumerate(f, start=1):
             s = line.strip()
             if not s:
-                continue  # skip blank lines
+                continue
             try:
                 yield json.loads(s)
             except json.JSONDecodeError as e:
@@ -38,13 +38,11 @@ def main():
 
     os.makedirs(args.plots, exist_ok=True)
 
-    # --- Load gold ---
     gold, meta = {}, {}
     for x in iter_jsonl(args.gold):
         gold[x["id"]] = x["answer"]
         meta[x["id"]] = (x["language"], x["domain"])
 
-    # --- Score ---
     correct, total = 0, 0
     buckets = defaultdict(lambda: {"c": 0, "t": 0})
     for x in iter_jsonl(args.pred):
@@ -60,7 +58,6 @@ def main():
         buckets[("dom", dom)]["t"] += 1
         buckets[("dom", dom)]["c"] += int(is_ok)
 
-    # --- Print text summary ---
     overall = pct(correct, total)
     print(f"Overall accuracy: {correct}/{total} = {overall:.1f}%\n")
 
@@ -81,7 +78,6 @@ def main():
             print(f"  {key}: {v['c']}/{v['t']} = {acc:.1f}%")
             dom_labels.append(key); dom_vals.append(acc)
 
-    # --- Save plots ---
     lang_png = os.path.join(args.plots, "acc_by_language.png")
     dom_png  = os.path.join(args.plots, "acc_by_domain.png")
     if lang_labels:
@@ -89,7 +85,6 @@ def main():
     if dom_labels:
         barplot(dom_png, dom_labels, dom_vals, "Accuracy by Domain", "Domain")
 
-    # --- Save CSV summary ---
     csv_path = os.path.join(args.plots, "summary.csv")
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
