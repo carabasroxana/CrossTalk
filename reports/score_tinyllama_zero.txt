@@ -1,0 +1,12 @@
+Overall accuracy: 8/24 = 33.3%
+
+By language:
+  en: 4/8 = 50.0%
+  es: 2/8 = 25.0%
+  ro: 2/8 = 25.0%
+
+By domain:
+  food: 3/6 = 50.0%
+  holidays: 3/6 = 50.0%
+  shopping: 2/6 = 33.3%
+  transportation: 0/6 = 0.0%
