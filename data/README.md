@@ -1,0 +1,2 @@
+- `pilot.jsonl` — 24 multiple-choice items (EN/ES/RO × 4 domains × 2 items).
+- Each item includes rationale and notes (variance flags when relevant).
