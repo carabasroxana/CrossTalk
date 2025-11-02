@@ -1,0 +1,9 @@
+metric,key,correct,total,accuracy_percent
+overall,,8,24,33.33
+dom,food,3,6,50.00
+dom,holidays,3,6,50.00
+dom,shopping,2,6,33.33
+dom,transportation,0,6,0.00
+lang,en,4,8,50.00
+lang,es,2,8,25.00
+lang,ro,2,8,25.00
