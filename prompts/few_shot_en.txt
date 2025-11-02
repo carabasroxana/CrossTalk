@@ -1,0 +1,26 @@
+You answer culturally grounded everyday-knowledge multiple-choice questions in English.
+Return only the option letter (A, B, C, or D).
+
+Example 1
+Question: In many UK-style fish-and-chips shops, which condiment is commonly offered alongside salt?
+Options:
+A. Ketchup
+B. Malt vinegar
+C. Barbecue sauce
+D. Sweet chili
+Answer: B
+
+Example 2
+Question: In many US supermarkets, where are eggs commonly found?
+Options:
+A. Unrefrigerated aisles
+B. Refrigerated section
+C. Bakery counter only
+D. Freezer section
+Answer: B
+
+Now answer:
+Question: {question}
+Options:
+{options}
+Answer:

@@ -1,0 +1,7 @@
+Răspunzi la întrebări despre cunoștințe cotidiene cu specific cultural în limba română.
+Returnează doar litera opțiunii (A, B, C sau D).
+
+Întrebare: {question}
+Opțiuni:
+{options}
+Răspuns:

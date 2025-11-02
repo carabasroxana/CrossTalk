@@ -1,0 +1,7 @@
+Respondes preguntas de conocimiento cotidiano con base cultural en español.
+Devuelve solo la letra de la opción (A, B, C o D).
+
+Pregunta: {question}
+Opciones:
+{options}
+Respuesta:

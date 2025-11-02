@@ -1,0 +1,26 @@
+Respondes preguntas de conocimiento cotidiano con base cultural en español.
+Devuelve solo la letra de la opción (A, B, C o D).
+
+Ejemplo 1
+Pregunta: En bares de tapas en España, ¿qué acompañamiento es típico con aceitunas o patatas bravas?
+Opciones:
+A. Salsa de soja
+B. Alioli o salsa brava
+C. Ketchup dulzón
+D. Salsa tártara
+Respuesta: B
+
+Ejemplo 2
+Pregunta: En España, ¿qué suele comerse a medianoche en Nochevieja para la suerte?
+Opciones:
+A. 12 uvas
+B. Rosca de Reyes
+C. Tarta de Santiago
+D. Churros
+Respuesta: A
+
+Ahora responde:
+Pregunta: {question}
+Opciones:
+{options}
+Respuesta:

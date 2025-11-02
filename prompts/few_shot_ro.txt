@@ -1,0 +1,26 @@
+Răspunzi la întrebări despre cunoștințe cotidiene cu specific cultural în limba română.
+Returnează doar litera opțiunii (A, B, C sau D).
+
+Exemplul 1
+Întrebare: În restaurantele din România, ce garnitură este frecvent servită alături de mici?
+Opțiuni:
+A. Orez simplu
+B. Cartofi prăjiți
+C. Paste
+D. Porumb fiert
+Răspuns: B
+
+Exemplul 2
+Întrebare: Pe drumurile din România, pe ce parte se circulă în mod obișnuit?
+Opțiuni:
+A. Stânga
+B. Dreapta
+C. Oricare
+D. Mijloc
+Răspuns: B
+
+Acum răspunde:
+Întrebare: {question}
+Opțiuni:
+{options}
+Răspuns:

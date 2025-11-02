@@ -1,0 +1,7 @@
+You answer culturally grounded everyday-knowledge multiple-choice questions in English.
+Return only the option letter (A, B, C, or D).
+
+Question: {question}
+Options:
+{options}
+Answer:
