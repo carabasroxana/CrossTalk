@@ -1,0 +1,24 @@
+{"id": "en_food_001", "pred": "B", "raw": "B. Malt vinegar"}
+{"id": "en_food_002", "pred": "B", "raw": "B. French fries\n\nQuestion"}
+{"id": "en_holidays_001", "pred": "C", "raw": "C. Friday\n\nQuestion: What"}
+{"id": "en_holidays_002", "pred": "C", "raw": "C. Candles\n\nQuestion:"}
+{"id": "en_transport_001", "pred": "B", "raw": "B. Paper tickets bought at"}
+{"id": "en_transport_002", "pred": "C", "raw": "C. Either side\n\nQuestion:"}
+{"id": "en_shop_001", "pred": "B", "raw": "B. Refrigerated section"}
+{"id": "en_shop_002", "pred": "B", "raw": "B. Per kilogram only"}
+{"id": "es_food_001", "pred": "D", "raw": "D. Salsa tártara"}
+{"id": "es_food_002", "pred": "A", "raw": "A. Tostada con tomate"}
+{"id": "es_holidays_001", "pred": "A", "raw": "A. 12 uvas"}
+{"id": "es_holidays_002", "pred": "A", "raw": "A. 1 de enero"}
+{"id": "es_transport_001", "pred": "A", "raw": "A. En el metro de Madrid"}
+{"id": "es_transport_002", "pred": "C", "raw": "C. Central únicamente"}
+{"id": "es_shop_001", "pred": "A", "raw": "A. Siempre cierran"}
+{"id": "es_shop_002", "pred": "A", "raw": "A. En caja solo"}
+{"id": "ro_food_001", "pred": "A", "raw": "A. Orez simplu"}
+{"id": "ro_food_002", "pred": "B", "raw": "B. Gem de fructe"}
+{"id": "ro_holidays_001", "pred": "A", "raw": "A. Mere\n\nÎnt"}
+{"id": "ro_holidays_002", "pred": "A", "raw": "A. Sarmale\n\nÎnt"}
+{"id": "ro_transport_001", "pred": "A", "raw": "A. Doar numerar la"}
+{"id": "ro_transport_002", "pred": "A", "raw": "A. Stânga"}
+{"id": "ro_shop_001", "pred": "A", "raw": "A. La temperatură ambiental"}
+{"id": "ro_shop_002", "pred": "B", "raw": "B. Se oferă gratuit"}
